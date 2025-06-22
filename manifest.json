@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "FocusGuardAI",
+  "version": "0.1",
+  "description": "Odak dışına çıktığında sekme kapatan yapay zeka destekli yardımcı.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }, 
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
