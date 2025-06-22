@@ -23,3 +23,12 @@
 1. Clone or download the repository:
    ```bash
    git clone https://github.com/erolDemirhan/focus-guard-ai.git
+2. Open Chrome and go to chrome://extensions/
+
+3. Enable Developer Mode
+
+4. Click Load unpacked
+
+5. Select the project folder
+
+6. Use the popup to enter focus topics and start browsing
