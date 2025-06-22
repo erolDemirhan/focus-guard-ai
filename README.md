@@ -32,3 +32,11 @@
 5. Select the project folder
 
 6. Use the popup to enter focus topics and start browsing
+
+🌟 Contributing
+PRs and issues are welcome! Feel free to improve the UI, suggest new features, or optimize the AI logic.
+
+📄 License
+MIT License
+
+Made by Erol Demirhan
